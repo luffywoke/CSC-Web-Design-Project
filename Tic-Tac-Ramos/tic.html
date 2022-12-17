@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic-Tac-Gabe</title>
+
+        <link href="tac.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent Marker">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png.ico">
+    </head>
+
+    <body>
+       <div class="container">
+            <h1 id="game">Tic-Tac-Toe</h1>
+
+            <div id="board">
+                <div data-index="1" class="tile right-border bottom-border"></div>
+                <div data-index="2" class="tile right-border bottom-border"></div>
+                <div data-index="3" class="tile bottom-border"></div>
+                <div data-index="4" class="tile right-border bottom-border"></div>
+                <div data-index="5" class="tile right-border bottom-border"></div>
+                <div data-index="6" class="tile bottom-border"></div>
+                <div data-index="7" class="tile right-border"></div>
+                <div data-index="8" class="tile right-border"></div>
+                <div data-index="9" class="tile"></div>
+                <div id="strike" class="strike"></div>
+            </div>
+
+            <div id="game-Over-Area" class="hidden">
+                <h2 id="game-Over"></h2>
+                <button id="reset-Btn">Reset</button>
+            </div>
+
+            <script src="toe.js"></script>
+       </div>
+    </body>
+</html>
